@@ -9,10 +9,6 @@
 
 
 ::sqodule <- function(name, exports) {
-	::print("[DEBUG]: Module ");
-	::print(name);
-	::print(" exported!\n");
-
 	_sqodule_modules_do_not_use[name] <- exports;
 }
 
